@@ -33,14 +33,14 @@ Then need to do:
 |Shreyash Banduji Chacharkar | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/ShreyashChacharkar) |
 |Yash Mayur | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/ysmayur1992) |
 
-# Workflow
+## Workflow
 - Getting details of 1st project of each member
 - Selecting one project from our 1st project
 - Or selecting new best project topic other than our projects
 - Building business model, creating financial equation, collecting data, doing data analysis & Machine Learning
 - Developing web or desktop or mobile app (optional)
 
-# Team members' 1st projects
+## Team members' 1st projects
 
 |Name|Project Title|Link|
 |--|--|--|
@@ -49,3 +49,29 @@ Karakavalasa venkata pranay |Personal Medical Assistant|[PDF Link](pdfs/karakava
 Malay Vyas |University Chances Predictor|[PDF Link](pdfs/Malay-University_Chances_Predictor_App_Report.pdf)|
 Shreyash Banduji Chacharkar |Clothing Recommendation System Based on Body Data|[PDF Link](pdfs/Shreyash-Clothing_recommendation_system_based_on_body_data.pdf)|
 Yash Mayur |College Recommender|[GitHub Link](https://github.com/ysmayur1992/College_Recommender)|
+
+## Project Evaluation Matrix for Feasibility, Viability, and Monetization
+
+- **Feasibility:** Product/Service can be developed in short term future. (2-3 years)
+- **Viability:** Product/Service should be relevant or able to survive in long term future. (20-30 years)
+- **Monetization:** Product/Service should be monetizable directly. (indirectly monetizable Product/Service should be dropped for this Project)
+
+| Project Title                              | Feasibility (2-3 years) | Viability (20-30 years) | Monetization                   |
+|--------------------------------------------|-------------------------|--------------------------|--------------------------------|
+| Machine Predictive Maintenance for Industrial Machines | Feasible                | Viable                   | Direct monetization through maintenance services |
+| Personal Medical Assistant                   | Less feasible           | Potential viability      | May require complex monetization strategies |
+| University Chances Predictor                | Feasible                | Viable                   | Subscription services or partnerships |
+| Clothing Recommendation System Based on Body Data  | Feasible                | Viable                   | Monetization through affiliate marketing or personalized shopping experiences |
+| College Recommender                         | Feasible                | Viable                   | Subscription services or partnerships |
+
+### (Scale: 1-5)
+
+Here's a table with the project titles, along with their respective ratings on a scale of 1 to 5 for Feasibility, Viability, and Monetization, where 5 indicates the highest rating and 1 indicates the lowest:
+
+| Project Title                              | Feasibility | Viability | Monetization |
+|--------------------------------------------|-------------------|-----------------|---------------------|
+| Machine Predictive Maintenance for Industrial Machines | 5                 | 5               | 5                   |
+| Personal Medical Assistant                   | 2                 | 3               | 2                   |
+| University Chances Predictor                | 4                 | 4               | 4                   |
+| Clothing Recommendation System Based on Body Data  | 4                 | 4               | 4                   |
+| College Recommender                         | 4                 | 4               | 4                   |

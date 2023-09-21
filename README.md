@@ -1,4 +1,4 @@
-# Project3 - [Feynn Labs](https://www.linkedin.com/company/feynn-labs/?originalSubdomain=in) [Internship](https://feynnlabs.com/internships/)
+# Smart Industrial Predictive Solutions - [Feynn Labs](https://www.linkedin.com/company/feynn-labs/?originalSubdomain=in) [Internship](https://feynnlabs.com/internships/)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-blue?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -14,7 +14,7 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 ## Introduction
-This is Feynn Labs Internship's 3rd project. Here, we have to choose one best project of all our 1st projects.
+This is Feynn Labs Internship's 3<sup>rd</sup> project. Here, we have to choose one best project of all our 1<sup>st</sup> projects.
 
 Then need to do:
 - Data collection
@@ -34,13 +34,14 @@ Then need to do:
 |Yash Mayur | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/ysmayur1992) |
 
 ## Workflow
-- Getting details of 1st project of each member
-- Selecting one project from our 1st project
+- Getting details of 1<sup>st</sup> project of each member
+- Selecting one project from our 1<sup>st</sup> project
 - Or selecting new best project topic other than our projects
+- Role selection (Business Specialists, Data Scientists and Software Developer)
 - Building business model, creating financial equation, collecting data, doing data analysis & Machine Learning
 - Developing web or desktop or mobile app (optional)
 
-## Team members' 1st projects
+## Team members' 1<sup>st</sup> projects
 
 |Name|Project Title|Link|
 |--|--|--|
@@ -75,3 +76,5 @@ Here's a table with the project titles, along with their respective ratings on a
 | University Chances Predictor                | 4                 | 4               | 4                   |
 | Clothing Recommendation System Based on Body Data  | 4                 | 4               | 4                   |
 | College Recommender                         | 4                 | 4               | 4                   |
+
+> Among these, we selected **Machine Predictive Maintenance for Industrial Machines** and we renamed it as **Smart Industrial Predictive Solutions** for our 3<sup>rd</sup> project.

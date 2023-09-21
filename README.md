@@ -1,4 +1,4 @@
-# Smart Industrial Predictive Solutions - [Feynn Labs](https://www.linkedin.com/company/feynn-labs/?originalSubdomain=in) [Internship](https://feynnlabs.com/internships/)
+# Smart Industrial Predictive Solutions - [Feynn Labs](https://www.linkedin.com/company/feynn-labs/?originalSubdomain=in) [Internship](https://feynnlabs.com/internships/) 3<sup>rd</sup> project
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-blue?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -23,6 +23,8 @@ Then need to do:
 - Creating business model
 - Creating finantial equation with the help of data analysis and machine learning. 
 - If possible, we have to create app.
+
+> We selected [**Machine Predictive Maintenance for Industrial Machines**](https://github.com/Adhiban1/Machine-Predictive-Maintenance) project
 
 ## Team members
 |Name|GitHub link|
@@ -57,6 +59,8 @@ Yash Mayur |College Recommender|[GitHub Link](https://github.com/ysmayur1992/Col
 - **Viability:** Product/Service should be relevant or able to survive in long term future. (20-30 years)
 - **Monetization:** Product/Service should be monetizable directly. (indirectly monetizable Product/Service should be dropped for this Project)
 
+> [Project-Assessment.md](Project-Assessment.md)
+
 | Project Title                              | Feasibility (2-3 years) | Viability (20-30 years) | Monetization                   |
 |--------------------------------------------|-------------------------|--------------------------|--------------------------------|
 | Machine Predictive Maintenance for Industrial Machines | Feasible                | Viable                   | Direct monetization through maintenance services |
@@ -78,3 +82,10 @@ Here's a table with the project titles, along with their respective ratings on a
 | College Recommender                         | 4                 | 4               | 4                   |
 
 > Among these, we selected **Machine Predictive Maintenance for Industrial Machines** and we renamed it as **Smart Industrial Predictive Solutions** for our 3<sup>rd</sup> project.
+
+## [Roles](roles.md)
+|Role|Person(s)|
+|--|--|
+|Business Specialists (2) | Adhiban Siddarth & Shreyash Banduji Chacharkar|
+|Data Scientists (2)|Yash Mayur & -|
+|Software Developer (1)|-|

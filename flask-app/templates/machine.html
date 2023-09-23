@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="static/machine.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Smart Industrial Predictive Solutions</title>
 </head>
 <body>
     <div class="navbar">
@@ -13,14 +13,10 @@
         <a href="/" class="home">Home</a>
     </div>
     <center>
-        <h1>Predictive Maintenance</h1>
-        <form action="/machine" method="POST">
-            <table>
-                {% for i,j in data %}
-                <tr><td>{{i}}</td><td><input type="text" name="{{i}}" value="{{j}}"></td></tr>
-                {% endfor %}
-                <tr><td></td><td><input type="submit" value="Submit" class="submit"></td></tr>
-            </table>
+        <h1>Machine Predictive Maintenance</h1>
+        <form action="/machine" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" class="submit">
+            <input type="submit" class="submit">
         </form>
     </center>
 </body>

@@ -77,3 +77,45 @@ Yash Mayur |College Recommender|[GitHub Link](https://github.com/ysmayur1992/Col
 |Business Specialists (2) | Karakavalasa venkata pranay & Shreyash Banduji Chacharkar|
 |Data Scientists (2)|Malay Vyas & Yash Mayur|
 |Software Developer (1)|Adhiban Siddarth|
+
+## ML Model -> Web app
+
+```mermaid
+flowchart LR
+subgraph Data Scientist
+A[(Dataset)] --Data Analysis-->B[Clean Dataset]
+B --ML--> C[ML Model] --> D[Pickle file]
+C --> E[ML Function]
+end
+subgraph Software Developer
+E --> F[Web app]
+D --> F
+end
+```
+
+`ML Function` gets csv file of machines' data and returns failear dataframe of all machines.
+
+```python
+def ml_function(csv_path, model_path):
+    # loading pre-trained model from model_path
+    # pandas dataframe(df) from csv_path
+    # df cleaning & preprocessing...
+    ...
+    ...
+    # failear_df prediction from df using the ML model
+    return failear_df
+```
+
+## Web app
+
+```mermaid
+flowchart LR
+A[Industry] --Machines data--> B[Front-end]
+B --Failear report--> A
+subgraph Web app
+B --Machines data--> C[ML Function] 
+C[ML Function]--csv file--> D[Failear report]
+E[ML-Model.pkl] --> C
+D --> B
+end
+```

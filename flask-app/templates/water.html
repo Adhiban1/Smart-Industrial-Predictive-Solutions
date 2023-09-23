@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/machine.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <span class="navbar-title">Smart Industrial Predictive Solutions</span>
+        <a href="/" class="home">Home</a>
+    </div>
+    <center>
+        <h1>Wafer Quality Prediction</h1>
+        <form action="/water" method="POST">
+            <table>
+                {% for i,j in data %}
+                <tr><td>{{i}}</td><td><input type="text" name="{{i}}" value="{{j}}"></td></tr>
+                {% endfor %}
+                <tr><td></td><td><input type="submit" value="Submit" class="submit"></td></tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

@@ -1,3 +1,9 @@
+|Role|Person(s)|
+|--|--|
+|Business Specialists (2) | Karakavalasa venkata pranay & Shreyash Banduji Chacharkar|
+|Data Scientists (2)|Malay Vyas & Yash Mayur|
+|Software Developer (1)|Adhiban Siddarth|
+
 **Business Specialists (2):**
 - Conduct market research to identify potential clients and market trends.
 - Develop a comprehensive business model and strategy.

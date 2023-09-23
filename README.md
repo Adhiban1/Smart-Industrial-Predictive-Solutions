@@ -69,23 +69,11 @@ Yash Mayur |College Recommender|[GitHub Link](https://github.com/ysmayur1992/Col
 | Clothing Recommendation System Based on Body Data  | Feasible                | Viable                   | Monetization through affiliate marketing or personalized shopping experiences |
 | College Recommender                         | Feasible                | Viable                   | Subscription services or partnerships |
 
-### (Scale: 1-5)
-
-Here's a table with the project titles, along with their respective ratings on a scale of 1 to 5 for Feasibility, Viability, and Monetization, where 5 indicates the highest rating and 1 indicates the lowest:
-
-| Project Title                              | Feasibility | Viability | Monetization |
-|--------------------------------------------|-------------------|-----------------|---------------------|
-| Machine Predictive Maintenance for Industrial Machines | 5                 | 5               | 5                   |
-| Personal Medical Assistant                   | 2                 | 3               | 2                   |
-| University Chances Predictor                | 4                 | 4               | 4                   |
-| Clothing Recommendation System Based on Body Data  | 4                 | 4               | 4                   |
-| College Recommender                         | 4                 | 4               | 4                   |
-
 > Among these, we selected **Machine Predictive Maintenance for Industrial Machines** and we renamed it as **Smart Industrial Predictive Solutions** for our 3<sup>rd</sup> project.
 
 ## [Roles](roles.md)
 |Role|Person(s)|
 |--|--|
-|Business Specialists (2) | Adhiban Siddarth & Shreyash Banduji Chacharkar|
-|Data Scientists (2)|Yash Mayur & -|
-|Software Developer (1)|-|
+|Business Specialists (2) | Karakavalasa venkata pranay & Shreyash Banduji Chacharkar|
+|Data Scientists (2)|Malay Vyas & Yash Mayur|
+|Software Developer (1)|Adhiban Siddarth|

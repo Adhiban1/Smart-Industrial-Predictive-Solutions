@@ -93,3 +93,8 @@ body {
 .link1 {
     color: black;
 }
+
+.nav-link {
+    margin-left: 10px;
+    color: white;
+}

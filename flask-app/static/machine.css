@@ -9,7 +9,22 @@ input {
 }
 
 .submit {
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 3px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    opacity: 0.7;
+}
+
+.submit:active {
+    opacity: 0.5;
 }
 
 .home {
@@ -25,5 +40,32 @@ input {
 }
 
 .home:active {
+    opacity: 0.5;
+}
+
+.file-upload {
+    padding: 10px;
+    background-color: lightblue;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 120%;
+}
+
+input::file-selector-button {
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+input::file-selector-button:hover {
+    opacity: 0.7;
+}
+
+input::file-selector-button:active {
     opacity: 0.5;
 }

@@ -97,4 +97,13 @@ body {
 .nav-link {
     margin-left: 10px;
     color: white;
+    font-size: 120%;
+}
+
+.nav-link:hover {
+    opacity: 0.7;
+}
+
+.nav-link:active {
+    opacity: 0.5;
 }

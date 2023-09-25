@@ -26,6 +26,10 @@ Then need to do:
 
 > We selected [**Machine Predictive Maintenance for Industrial Machines**](https://github.com/Adhiban1/Machine-Predictive-Maintenance) project
 
+## About
+
+**Smart Industrial Predictive Solutions** is a forward-looking project with a big goal: to make industries smarter and more efficient. It does this by using fancy technology like data analysis and machine learning to predict when machines might break down. Imagine having a crystal ball that tells you when your car is going to have engine trouble before it even happens. That's what this project aims to do for factories and big machines in industries. By doing this, it helps companies save money, work more safely, and keep everything running smoothly. It's like having a super-smart maintenance team that never misses a beat!
+
 ## Team members
 |Name|GitHub link|
 |--|--|
@@ -78,6 +82,21 @@ Yash Mayur |College Recommender|[GitHub Link](https://github.com/ysmayur1992/Col
 |Data Scientists (2)|Malay Vyas & Yash Mayur|
 |Software Developer (1)|Adhiban Siddarth|
 
+## Business Model
+Real time Web Based monitoring and predictive maintenances app:
+
+*prototype of real time web based predictive maintenance services*
+
+```mermaid
+flowchart LR
+A[Data collection\nthrough\nIOT based\nsensor]
+B[Cloud\nstorage]
+C[Data processing\nData checkup]
+D[Analytics \n& Prediction]
+E[Web based\napplication]
+A-->B-->C-->D-->E
+```
+
 ## ML Model -> Web app
 
 ```mermaid
@@ -110,12 +129,31 @@ def ml_function(csv_path, model_path):
 
 ```mermaid
 flowchart LR
-A[Industry] --Machines data--> B[Front-end]
-B --Failear report--> A
+A[Machines]
+B[Front-end]
+C[ML Function] 
+E[ML-Model.pkl]
+G[IOT]
+H[Manual]
+
+G --Machines data--> B
+
 subgraph Web app
-B --Machines data--> C[ML Function] 
-C[ML Function]--csv file--> D[Failear report]
-E[ML-Model.pkl] --> C
-D --> B
+B --Machines data--> C
+C--Failear Report--> B
+E --> C
 end
+
+B --Failear report--> G
+
+subgraph Industry
+
+A --Data--> G
+G --Repair--> A
+H
+end
+
+A <--> H
+H --database--> B
+B --Failear Report--> H
 ```

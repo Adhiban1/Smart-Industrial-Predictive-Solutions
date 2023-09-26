@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session, send_file
 from werkzeug.security import generate_password_hash, check_password_hash
+from ml_model import ml_function
+import pandas as pd
 
 app = Flask(__name__)
 app.secret_key = 'this is my secret key'
@@ -26,9 +28,16 @@ def machine():
         if f:
             f.save('uploaded/input.csv')
             print(f)
-            return send_file('uploaded/input.csv', 
+
+            df = pd.read_csv('uploaded/input.csv')
+            failear_df = ml_function(df)
+            if len(failear_df) > 5:
+                failear_df = failear_df.iloc[:5]
+            failear_df.to_csv('uploaded/sample_failear_report.csv', index=False)
+
+            return send_file('uploaded/sample_failear_report.csv', 
                          as_attachment=True, 
-                         download_name='output.csv')
+                         download_name='sample_failear_report.csv')
         else:
             print('No file uploaded')
     else:
@@ -79,9 +88,14 @@ def profile():
             if f:
                 f.save('uploaded/input.csv')
                 print(f)
-                return send_file('uploaded/input.csv', 
+
+                df = pd.read_csv('uploaded/input.csv')
+                failear_df = ml_function(df)
+                failear_df.to_csv('uploaded/failear_report.csv', index=False)
+
+                return send_file('uploaded/failear_report.csv', 
                             as_attachment=True, 
-                            download_name='output.csv')
+                            download_name='failear_report.csv')
             else:
                 print('No file uploaded')
         else:

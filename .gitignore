@@ -1,2 +1,7 @@
 .ipynb_checkpoints
 flask-app.zip
+flask-app/src/__pycache__
+flask-app/src/pipeline/__pycache__
+flask-app/venv
+flask-app/Recent_Logs
+flask-app/__pycache__

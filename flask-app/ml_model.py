@@ -12,6 +12,6 @@ def ml_function(df):
              "Torque [Nm]", "Tool wear [min]", "Power"]]
     scaled_df = preprocessor.transform(df1)
     predictions = model.predict(scaled_df)
-    failear_df = df[predictions == 0]
+    failear_df = df[predictions == 1]
     failear_df = failear_df.reset_index()
     return failear_df

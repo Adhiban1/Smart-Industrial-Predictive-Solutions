@@ -30,6 +30,10 @@ Then need to do:
 
 **Smart Industrial Predictive Solutions** is a forward-looking project with a big goal: to make industries smarter and more efficient. It does this by using fancy technology like data analysis and machine learning to predict when machines might break down. Imagine having a crystal ball that tells you when your car is going to have engine trouble before it even happens. That's what this project aims to do for factories and big machines in industries. By doing this, it helps companies save money, work more safely, and keep everything running smoothly. It's like having a super-smart maintenance team that never misses a beat!
 
+## Docker
+
+[![Docker image](https://img.shields.io/badge/Docker_image-Link-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=%230db7ed.svg)](https://hub.docker.com/r/adhiban/smart-industrial-predictive-solutions)
+
 ## Team members
 |Name|GitHub link|
 |--|--|

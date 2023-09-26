@@ -161,3 +161,17 @@ A <--> H
 H --database--> B
 B --Failear Report--> H
 ```
+
+## Upload csv format
+
+|Type|Air temperature [K]|Process temperature [K]|Rotational speed [rpm]|Torque [Nm]|Tool wear [min]|Power|
+|--|--|--|--|--|--|--|
+L|276|316|1244|15|192|29575|
+H|333|302|1925|77|32|12799|
+M|286|311|2678|80|50|15481|
+|...|...|...|...|...|...|...|
+H|338|301|2214|34|245|90977|
+
+You can include extra columns for machine names or number but the above columns in the table must be there in your upload csv.
+
+The report csv file has only failear machines data, for easily getting which machine is failear, another column called index is added in report csv.

@@ -1,0 +1,6 @@
+index,Type,Air temperature [K],Process temperature [K],Rotational speed [rpm],Torque [Nm],Tool wear [min],Power
+0,L,276,316,1244,15,192,29575
+1,H,333,302,1925,77,32,12799
+2,M,286,311,2678,80,50,15481
+4,M,271,307,1279,5,34,63926
+5,M,267,313,1852,51,162,48434

@@ -175,3 +175,9 @@ H|338|301|2214|34|245|90977|
 You can include extra columns for machine names or number but the above columns in the table must be there in your upload csv.
 
 The report csv file has only failear machines data, for easily getting which machine is failear, another column called index is added in report csv.
+
+## Project video
+
+<video controls autoplay>
+  <source src="flask-app.mp4" type="video/mp4">
+</video>

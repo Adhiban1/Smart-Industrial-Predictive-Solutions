@@ -103,6 +103,8 @@ A-->B-->C-->D-->E
 
 ## ML Model -> Web app
 
+Yash Mayur's Machine Learning Model - [github repo](https://github.com/ysmayur1992/predictive_maintenance)
+
 ```mermaid
 flowchart LR
 subgraph Data Scientist
@@ -177,5 +179,7 @@ You can include extra columns for machine names or number but the above columns 
 The report csv file has only failear machines data, for easily getting which machine is failear, another column called index is added in report csv.
 
 ## Project video
+
+[flask-app.mp4](flask-app.mp4)
 
 ![flask-app.mp4](flask-app.mp4)

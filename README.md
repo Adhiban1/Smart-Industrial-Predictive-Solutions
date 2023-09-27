@@ -178,6 +178,4 @@ The report csv file has only failear machines data, for easily getting which mac
 
 ## Project video
 
-<video controls autoplay>
-  <source src="flask-app.mp4" type="video/mp4" alt="flask-app.mp4">
-</video>
+![flask-app.mp4](flask-app.mp4)

@@ -26,6 +26,8 @@ Then need to do:
 
 > We selected [**Machine Predictive Maintenance for Industrial Machines**](https://github.com/Adhiban1/Machine-Predictive-Maintenance) project
 
+> Web App: [Link1](https://predictive-maintenance-tjaq.onrender.com/) (render.com) and [Link2](https://predictive-maintainances.uc.r.appspot.com/) (GCP)
+
 ## About
 
 **Smart Industrial Predictive Solutions** is a forward-looking project with a big goal: to make industries smarter and more efficient. It does this by using fancy technology like data analysis and machine learning to predict when machines might break down. Imagine having a crystal ball that tells you when your car is going to have engine trouble before it even happens. That's what this project aims to do for factories and big machines in industries. By doing this, it helps companies save money, work more safely, and keep everything running smoothly. It's like having a super-smart maintenance team that never misses a beat!
@@ -177,6 +179,12 @@ H|338|301|2214|34|245|90977|
 You can include extra columns for machine names or number but the above columns in the table must be there in your upload csv.
 
 The report csv file has only failear machines data, for easily getting which machine is failear, another column called index is added in report csv.
+
+## Web App Deployment
+
+We deployed web app in GCP and render.com. Shreyash Banduji Chacharkar deployed web app in GCP [Github repo](https://github.com/ShreyashChacharkar/Predictive-maintainances). I deployed web app in render.com using [docker image](https://hub.docker.com/r/adhiban/smart-industrial-predictive-solutions) - `adhiban/smart-industrial-predictive-solutions:alpha`
+
+> Web App: [Link1](https://predictive-maintenance-tjaq.onrender.com/) (render.com) and [Link2](https://predictive-maintainances.uc.r.appspot.com/) (GCP)
 
 ## Project video
 

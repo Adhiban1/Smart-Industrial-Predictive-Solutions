@@ -9,7 +9,6 @@
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/Bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
@@ -103,9 +102,13 @@ E[Web based\napplication]
 A-->B-->C-->D-->E
 ```
 
-## ML Model -> Web app
+> [Business Model](documents/business_model2.pdf) is prepared by Karakavalasa venkata pranay and Shreyash Banduji Chacharkar
 
-Yash Mayur's Machine Learning Model - [github repo](https://github.com/ysmayur1992/predictive_maintenance)
+## ML Model ➡️ Web app
+
+Yash Mayur's Machine Learning Model - [Github repo](https://github.com/ysmayur1992/predictive_maintenance)
+
+Malay Vyas's Machine Learning Model - [Github repo](https://github.com/MalayVyas/Maintenance-Prediction)
 
 ```mermaid
 flowchart LR
@@ -133,7 +136,7 @@ def ml_function(csv_path, model_path):
     return failear_df
 ```
 
-## Web app
+## Web app architecture
 
 ```mermaid
 flowchart LR
@@ -190,4 +193,6 @@ We deployed web app in GCP and render.com. Shreyash Banduji Chacharkar deployed 
 
 [flask-app.mp4](flask-app.mp4)
 
-![flask-app.mp4](flask-app.mp4)
+<video controls autoplay>
+    <source src='flask-app.mp4' alt='flask-app.mp4' type='video/mp4'>
+</video>

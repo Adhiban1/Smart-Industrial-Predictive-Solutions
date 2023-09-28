@@ -37,11 +37,11 @@ Then need to do:
 ## Team members
 |Name|GitHub link|
 |--|--|
-|Adhiban Siddarth ![Me](https://img.shields.io/badge/Me-green) ![Team Lead](https://img.shields.io/badge/Team_Lead-red) | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/Adhiban1) |
+|Adhiban Siddarth ![Me](https://img.shields.io/badge/Me-green) ![Team Lead](https://img.shields.io/badge/Team_Lead-red) | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/Adhiban1/Smart-Industrial-Predictive-Solutions) |
 |Karakavalasa venkata pranay | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/Venkatapranay) |
-|Malay Vyas | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/MalayVyas) |
-|Shreyash Banduji Chacharkar | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/ShreyashChacharkar) |
-|Yash Mayur | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/ysmayur1992) |
+|Malay Vyas | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/MalayVyas/Maintenance-Prediction) |
+|Shreyash Banduji Chacharkar | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/ShreyashChacharkar/Predictive-maintainances) |
+|Yash Mayur | [![GitHub Link](https://img.shields.io/badge/GitHub-Link-blue?logo=github&logoColor=white)](https://github.com/ysmayur1992/predictive_maintenance) |
 
 ## Workflow
 - Getting details of 1<sup>st</sup> project of each member

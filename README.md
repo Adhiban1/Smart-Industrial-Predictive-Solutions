@@ -196,3 +196,7 @@ We deployed web app in GCP and render.com. Shreyash Banduji Chacharkar deployed 
 <video controls autoplay>
     <source src='flask-app.mp4' alt='flask-app.mp4' type='video/mp4'>
 </video>
+
+## About team members
+
+I wanted to express my heartfelt appreciation for the incredible support and expertise my team members have provided throughout this project. My team members' skills in data analysis and machine learning are truly exceptional, and I've had the opportunity to learn a tremendous amount from each member. This project has undoubtedly been the highlight of my team experiences, and I consider myself fortunate to have had the privilege of working with such an outstanding group. Although I've led teams for college projects in my native language, Tamil, I initially had some reservations about leading a team in English. However, working with my team members has been an absolute pleasure. My team members' effective communication and seamless collaboration have made this journey a joy, and I am genuinely grateful to have my team members as my partners in this endeavor. Thank you all so much for your hard work and dedication!

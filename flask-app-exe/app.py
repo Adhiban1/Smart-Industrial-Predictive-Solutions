@@ -2,12 +2,10 @@ from flask import Flask, render_template, request, redirect, url_for, flash, ses
 from werkzeug.security import generate_password_hash, check_password_hash
 import pandas as pd
 import os
+import pickle
+import catboost
 import sklearn
 import sklearn.compose
-import catboost
-
-########
-import pickle
 
 with open('artifacts/model.pkl', 'rb') as f:
     model = pickle.load(f)
@@ -24,9 +22,8 @@ def ml_function(df):
     failear_df = df[predictions == 1]
     failear_df = failear_df.reset_index()
     return failear_df
-########
 
-app = Flask(__name__,
+app = Flask(__name__, 
             template_folder=os.path.join(os.getcwd(), 'templates'),
             static_folder=os.path.join(os.getcwd(), 'static'))
 app.secret_key = 'this is my secret key'
@@ -54,15 +51,15 @@ def machine():
             f.save(os.path.join(os.getcwd(), 'uploaded/input.csv'))
             print(f)
 
-            df = pd.read_csv('./uploaded/input.csv')
+            df = pd.read_csv('uploaded/input.csv')
             failear_df = ml_function(df)
             if len(failear_df) > 5:
                 failear_df = failear_df.iloc[:5]
-            failear_df.to_csv('./uploaded/sample_failear_report.csv', index=False)
+            failear_df.to_csv('uploaded/sample_failear_report.csv', index=False)
 
             return send_file(os.path.join(os.getcwd(), 'uploaded/sample_failear_report.csv'), 
-                             as_attachment=True, 
-                             download_name='sample_failear_report.csv')
+                         as_attachment=True, 
+                         download_name='sample_failear_report.csv')
         else:
             print('No file uploaded')
     else:
@@ -111,12 +108,12 @@ def profile():
         if request.method == 'POST' and 'file' in request.files:
             f = request.files['file']
             if f:
-                f.save(os.path.join(os.getcwd(), 'uploaded/input.csv'))
+                f.save(os.path.join(os.getcwd(),'uploaded/input.csv'))
                 print(f)
 
-                df = pd.read_csv('./uploaded/input.csv')
+                df = pd.read_csv('uploaded/input.csv')
                 failear_df = ml_function(df)
-                failear_df.to_csv('./uploaded/failear_report.csv', index=False)
+                failear_df.to_csv('uploaded/failear_report.csv', index=False)
 
                 return send_file(os.path.join(os.getcwd(), 'uploaded/failear_report.csv'), 
                             as_attachment=True, 
@@ -127,6 +124,10 @@ def profile():
             print('No files or no post method')
         return render_template('profile.html')
     return redirect(url_for('login'))
+
+@app.route('/dashboard')
+def dashboard():
+    return render_template('dashboard.html')
 
 if __name__ == "__main__":
     app.run(debug=False, host='0.0.0.0', port=5000)
